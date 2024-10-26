@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVKisser на техническом обслуживании</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .maintenance {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 1rem;
+        }
+        
+        .icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 1.5rem;
+            object-fit: contain;
+        }
+        
+        h1 {
+            color: #2d3748;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .estimated-time {
+            background: #ebf8ff;
+            color: #2b6cb0;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            display: inline-block;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .telegram-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0088cc;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .telegram-button:hover {
+            background-color: #006699;
+        }
+
+        .telegram-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance">
+        <img src="maintenance.png" alt=":(" class="icon">
+        
+        <h1>OVKisser на техническом обслуживании</h1>
+        
+        <p>В настоящее время мы проводим полный реборн проекта. Подробнее про реборн вы можете прочитать в нашем Telegram канале. Приносим извинения за временные неудобства.</p>
+        
+        <div class="estimated-time">
+            Ориентировочное время завершения работ: 03/11/2024
+        </div>
+
+        <a href="https://t.me/ovkisser" class="telegram-button">
+            <img src="tg.svg" alt="Telegram">
+            Следите за обновлениями в Telegram
+        </a>
+    </div>
+</body>
+</html>
